@@ -255,7 +255,7 @@ export default function DesignersSection({
           className="bg-lime-400 p-2 relative overflow-hidden min-h-[430px] bg-cover bg-center bg-no-repeat"
           style={{
             backgroundImage: "url('/qudus-photo.png')",
-            backgroundPosition: "-86% 22000%",
+            backgroundPosition: "-80% 350%",
             backgroundSize: "120%",
           }}
         >

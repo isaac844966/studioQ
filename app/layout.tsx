@@ -52,8 +52,7 @@ export default function RootLayout({
       </head>
       <body className={inter.className}>
         {children}
-        <BookCallSection />
-        <FooterSection />
+       
         <Script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" />
       </body>
     </html>

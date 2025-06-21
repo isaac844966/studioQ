@@ -21,13 +21,14 @@ function page() {
           isDarkMode ? "dark  text-white" : " text-black"
         }`}
       >
-        <h2 className="text-4xl pb-10 px-4 md:text-5xl lg:text-6xl font-bold text-black dark:text-white mb-8 leading-[1.9]">
+        <h2 className="text-4xl pb-10 px-4 md:text-5xl lg:text-6xl font-bold text-black dark:text-white mb-8 md:leading-[1.9]">
           Creating unforgettable <br /> digital impressions
         </h2>
 
         <PortfolioGrid hideExploreButton />
-     
       </main>
+      <BookCallSection />
+      <FooterSection />
     </>
   );
 }

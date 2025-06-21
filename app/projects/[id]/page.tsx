@@ -1,5 +1,7 @@
 "use client";
 
+import BookCallSection from "@/components/book-call";
+import FooterSection from "@/components/footer";
 import Header from "@/components/header";
 import ProjectDetail from "@/components/project-detail";
 import { useTheme } from "@/hooks/use-theme";
@@ -93,7 +95,8 @@ export default function ProjectPage() {
       <>
         <Header isDarkMode={isDarkMode} toggleTheme={toggleTheme} />
         <ProjectDetail project={project} nextProjects={nextProjects} />
-      
+        <BookCallSection />
+        <FooterSection />
       </>
     ); 
 }

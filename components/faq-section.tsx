@@ -44,7 +44,7 @@ export default function FAQSection() {
         <div className="lg:grid lg:grid-cols-[65%_30%] lg:gap-16 lg:items-center">
           <div>
             <div className="mb-12">
-              <div className="inline-block px-6 py-2 bg-gray-200 dark:bg-gray-700 text-sm font-mono mb-6 rounded">
+              <div className="inline-block px-6 py-2 bg-[#F7F7F7] dark:bg-[#242424] text-sm font-mono mb-6 rounded">
                 FAQs
               </div>
               <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 text-gray-900 dark:text-white">
@@ -81,7 +81,7 @@ export default function FAQSection() {
           </div>
 
           <div className="mt-16 lg:mt-0">
-            <div className="bg-gray-100 dark:bg-gray-800 p-8 ">
+            <div className="bg-[#F7F7F7] dark:bg-[#242424] p-8 ">
               <div className="text-6xl font-bold text-gray-900 dark:text-white mb-4">
                 """
               </div>

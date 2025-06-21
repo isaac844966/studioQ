@@ -10,6 +10,8 @@ import HowItWorks from "@/components/how-it-wroks"
 import PricingSection from "@/components/pricing-section"
 import BenefitsSection from "@/components/benefit-section"
 import FAQSection from "@/components/faq-section"
+import BookCallSection from "@/components/book-call"
+import FooterSection from "@/components/footer"
 
 
 export default function HomePage() {
@@ -20,28 +22,31 @@ export default function HomePage() {
   }
 
   return (
-    <div
-      className={`min-h-screen transition-colors duration-300 ${
-        isDarkMode ? "dark bg-black text-white" : "bg-white text-black"
-      }`}
-    >
-      <Header isDarkMode={isDarkMode} toggleTheme={toggleTheme} />
+    <>
+      <div
+        className={`min-h-screen transition-colors duration-300 ${
+          isDarkMode ? "dark bg-black text-white" : "bg-white text-black"
+        }`}
+      >
+        <Header isDarkMode={isDarkMode} toggleTheme={toggleTheme} />
 
-      <main className="relative px-2 md:px-6 lg:px-8 py-8 mt-6 md:mt-4">
-        <RotatingCircle isDarkMode={isDarkMode} />
+        <main className="relative px-2 md:px-6 lg:px-8 py-8 mt-6 md:mt-4">
+          <RotatingCircle isDarkMode={isDarkMode} />
 
-        <div className="relative h-screen  mx-auto">
-          <FloatingTags isDarkMode={isDarkMode} />
-          <HeroContent />
-        </div>
+          <div className="relative h-screen  mx-auto">
+            <FloatingTags isDarkMode={isDarkMode} />
+            <HeroContent />
+          </div>
 
-        <PortfolioGrid />
-        <HowItWorks />
-        <PricingSection />
-        <BenefitsSection />
-        <FAQSection />
-      
-      </main>
-    </div>
+          <PortfolioGrid />
+          <HowItWorks />
+          <PricingSection />
+          <BenefitsSection />
+          <FAQSection />
+        </main>
+      </div>
+      <BookCallSection />
+      <FooterSection />
+    </>
   );
 }

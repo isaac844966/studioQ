@@ -17,7 +17,7 @@ function page() {
     <>
       <Header isDarkMode={isDarkMode} toggleTheme={toggleTheme} />
       <main
-        className={` pt-10  min-h-screen transition-colors duration-300 ${
+        className={` pt-10 pb-20 min-h-screen transition-colors duration-300 ${
           isDarkMode ? "dark  text-white" : " text-black"
         }`}
       >

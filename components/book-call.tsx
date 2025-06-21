@@ -42,7 +42,7 @@ export default function BookCallSection() {
   }, []);
 
   return (
-    <section className="relative overflow-hidden mt-20" id="book-call">
+    <section className="relative overflow-hidden " id="book-call">
       <div
         ref={backgroundRef}
         className="absolute inset-0 bg-cover bg-center transition-all duration-1000"
